@@ -1,0 +1,5 @@
+---
+- name: include ntp.yml
+  include: ntp.yml
+  tags:
+    - ntp
